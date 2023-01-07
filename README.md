@@ -26,7 +26,7 @@ chmod +x siddhascraper.py
 <br>
 
 **Example:**
-The following would create a file called: `a-thing-like-no-other.txt`
+The following command would create a file called: `a-thing-like-no-other.txt`
 
 ```
 ./siddhascraper.py https://www.kapilguptamd.com/2022/12/29/a-thing-like-no-other/
