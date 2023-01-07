@@ -1,6 +1,6 @@
 ## Siddha Scraper 
 
-A python script that converts [Kapil Gupta](https://twitter.com/KapilGuptaMD)'s public discourses (articles) into textfiles via command-line interface. 
+A python script that downloads [Kapil Gupta](https://twitter.com/KapilGuptaMD)'s public discourses (articles) as textfiles via command-line interface. 
 
 Note: all of the content being downloaded is free and public information available on Kapil Gupta's [website](https://www.kapilguptamd.com/).
 
