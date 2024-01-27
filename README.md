@@ -37,4 +37,4 @@ Successfully scraped: https://www.kapilguptamd.com/2022/12/29/a-thing-like-no-ot
 All done.
 ``` 
 
-This discourse is now downloaded at: `./discourses/a-thing-like-no-other.txt`.
+This discourse is now downloaded to: `./discourses/a-thing-like-no-other.txt`.
