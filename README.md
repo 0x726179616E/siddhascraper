@@ -1,17 +1,17 @@
-## Siddha Scraper 
+## siddhascraper
 
-A python script that downloads [Kapil Gupta](https://twitter.com/KapilGuptaMD)'s public discourses (articles) as textfiles via command-line interface. 
+`siddhascraper` is a python program that downloads [Kapil Gupta](https://twitter.com/KapilGuptaMD)'s public discourses (articles) as textfiles via a command-line interface. 
 
-Note: all of the content being downloaded is free and public information available on Kapil Gupta's [website](https://www.kapilguptamd.com/).
+I sincerely thank Kapil Gupta for sharing his work with the world.
 
 **Usage:** 
-1. Clone / download this repo: 
+1. Clone / download this repo and navigate into it:
 ```
-git clone https://github.com/rayankermanshahani/siddhascraper
+git clone https://github.com/0xtwosix/siddhascraper && cd siddhascraper
 ```
-2. Change into the downloaded directory: 
+2. Install dependencies via pip: 
 ```
-cd siddhascraper/
+pip install -r requirements.txt
 ```
 3. Make the script executable:
 ```
@@ -26,8 +26,15 @@ chmod +x siddhascraper.py
 <br>
 
 **Example:**
-The following command would create a file called: `a-thing-like-no-other.txt`
+
+The following command creates a file called: `a-thing-like-no-other.txt` and stores it within a directory named `discourses/`:
 
 ```
 ./siddhascraper.py https://www.kapilguptamd.com/2022/12/29/a-thing-like-no-other/
+
+Successfully scraped: https://www.kapilguptamd.com/2022/12/29/a-thing-like-no-other/
+
+All done.
 ``` 
+
+This discourse would now be accessible at the location: `./discourses/a-thing-like-no-other.txt`.
