@@ -7,7 +7,7 @@ I sincerely thank Kapil Gupta for sharing his work with the world.
 **Usage:** 
 1. Clone / download this repo and navigate into it:
 ```
-git clone https://github.com/0xtwosix/siddhascraper && cd siddhascraper
+git clone https://github.com/0x726179616E/siddhascraper && cd siddhascraper
 ```
 2. Install dependencies via pip: 
 ```
